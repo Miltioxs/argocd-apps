@@ -8,7 +8,6 @@ spec:
   project: default
   source:
     repoURL: https://github.com/Miltioxs/argocd-apps.git
-    path: /
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
